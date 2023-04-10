@@ -1,0 +1,142 @@
+.header {
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.main{
+    margin: 0 auto;
+    /* max-width: 1300px; */
+}
+.header--right {
+    margin-top: 10px;
+    margin-right: 5%;
+}
+
+.header-right {
+    display: flex;
+    font-size: 14px;
+}
+
+.header-right li {
+    DISPLAY: BLOCK;
+    margin: 0px 31px 0px 8px;
+}
+
+.header-right-li {
+    display: contents;
+    color: black;
+}
+
+.header-left {
+    margin-left: 5%;
+}
+
+.header-left-img {
+    width: 72px;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+
+.bander img {
+    width: 100%;
+    height: 550px;
+}
+
+.content{
+    display: flex;
+    margin-top: 40px;
+}
+
+
+
+.content{
+    display: flex;
+    margin-top: 40px;
+}
+.content-left{
+    width: 50%;
+}
+.content-right{
+    width: 50%;
+    margin-top: 46px;
+}
+
+.lienhe-2{
+    margin-top: -5px;
+}
+.lienhe-3{
+    margin-top: -10px;
+}
+.lienhe-3-1{
+    display: flex;
+   
+}
+ .lienhe-3-1-add{
+}
+.lienhe-3-1-sdt{
+    margin: 22px 0px 0px 5px;
+} 
+.lienhe-3-2{
+    display: flex;
+    margin: -29px 0px -29px 0px;
+}
+.lienhe-3-3{
+    margin-bottom: -28px;
+}
+
+.lienhe-3-4{
+    margin-bottom: -28px;
+    margin-top: 39px;
+}
+.content-right-iput{
+    display: flex;
+    margin-top: 28px;
+}
+.content-right-iput input{
+    width: 152%;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 30px;
+    border: solid 1px;
+}
+.content-right-iput-sdt{
+    margin-left: 143px;
+}
+.content-right-iput-ykien{
+    margin-top: 17px;
+}
+.content-right-button button{
+    width: 15%;
+    height: 41px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}
+.content-right-iput-ykien-textarea{
+    margin-top: 17px;
+}
+.content-right-iput-ykien-textarea textarea{
+    border-radius: 5px;
+}
+.content-right{
+    margin-right: 6%;
+}
+.content-left{
+    margin-left: 9%;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+}
+
