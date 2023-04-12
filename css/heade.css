@@ -16,8 +16,8 @@
     display: flex;
     justify-content: space-between;
     background-color: white;
-    height: 60px;
-    position: fixed;
+    height: 80px;
+    /* position: fixed; */
     width: 100%;
     top: 0;
     left: 0;
@@ -27,9 +27,10 @@
 .main{
     margin: 0 auto;
     /* max-width: 1300px; */
+    background-color: whitesmoke;
 }
 .header--right {
-    margin-top: 10px;
+    margin-top: 23px;
     margin-right: 5%;
 }
 
@@ -63,90 +64,3 @@
     height: 550px;
 }
 
-
-
-
-/* .header { */
-    /* font-family: arial;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    height: 60px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 10px 0px; */
-/* 
-    font-family: arial;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    height: 60px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 10px 0px;
-    filter: drop-shadow(2px 4px 6px black);
-}
-
-.header--right {
-    margin-top: 10px;
-    margin-right: 5%;
-}
-
-.header-right {
-    display: flex;
-    font-size: 14px;
-}
-
-.header-right li {
-    DISPLAY: BLOCK;
-    margin: 0px 31px 0px 8px;
-}
-
-.header-right-li {
-    display: contents;
-    color: black;
-}
-.header-left{
-    margin-left: 5%;
-}
-
-.header-left-img {
-    width: 72px;
-    margin-top: -2px;
-    margin-left: 5px;
-}
-.main{
-    margin: 0 auto;
-    max-width: 1300px;
-} */
-
-
-
-.bander img{
-    width: 100%;
-}
-.bander{
-    top: 0px; 
-    left:0px; 
-    width: 100%;
-}
-.content-2{
-    background-color: cadetblue;
-    width: 570px;
-    height: 380px;
-    margin-top: -29%;
-    position: absolute;
-    background-color: white;
-}
-.content-2-1{
-    color: #c38f36;
-    
-  
-}
-.content-1 img{
-    margin-left:  454px;
-}
