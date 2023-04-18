@@ -1,23 +1,9 @@
 .header {
-    /* font-family: arial;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    height: 60px;
-
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 10px 0px; */
-
-
-
     font-family: arial;
     display: flex;
     justify-content: space-between;
     background-color: white;
     height: 80px;
-    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -26,7 +12,6 @@
 }
 .main{
     margin: 0 auto;
-    /* max-width: 1300px; */
     background-color: whitesmoke;
 }
 .header--right {
@@ -68,7 +53,6 @@
 
 .main {
     margin: 0 auto;
-    /* max-width: 1300px; */
     background-color: whitesmoke;
     padding-bottom: 72px;
 }
@@ -264,8 +248,4 @@ footer.nb-footer {
     .footer-info-single p{
         text-align: justify;
     }
-    /* .col-sm-6{
-        text-align: center;
-    } */
-    
 
