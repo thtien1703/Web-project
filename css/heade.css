@@ -233,3 +233,20 @@ padding: 0; }
 .footer-info-single p{
     text-align: justify;
 }
+/* .from label{
+    font-weight: normal; 
+    color: gray;
+} */
+.form-label{
+    font-weight: normal; 
+    color: gray; 
+}
+.form-check-label{
+    font-weight: normal; 
+   margin-top: 5px; 
+}
+.modal-ku {
+    width: 1014px;
+    height: 875px;
+    margin: auto;
+}
