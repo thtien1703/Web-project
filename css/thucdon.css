@@ -93,11 +93,6 @@
     width: 300px;
     height: 243px
 }
-
-.food-container {
-    /* margin-top: -5rem; */
-}
-
 .food-container-row0 {
     display: flex;
     margin-left: 30px;
