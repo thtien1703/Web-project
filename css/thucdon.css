@@ -180,7 +180,9 @@
     background-color: whitesmoke;
     margin-top: -3rem;
 }
-
+.distance{
+    margin: 70px;
+}
 .food-container-lone {
     display: flex;
     justify-content: center;
