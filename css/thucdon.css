@@ -85,14 +85,18 @@
 #menu-monan {
     width: 200px;
 }
-
+img {
+    width: 100%;
+}
 .img-food {
     width: 300px;
+    height: 300px;
 }
 
 .img-food1 {
+    margin: 15px;
     width: 300px;
-    height: 243px
+    height: 280px
 }
 .food-container-row0 {
     display: flex;
@@ -139,8 +143,8 @@
 }
 
 .food-item-img img {
-    width: 360px;
-    height: 360px;
+    width: 300px;
+    height: 240px;
 }
 
 .food-item-content h5 {
@@ -173,7 +177,8 @@
 .price {
     display: flex;
     justify-content: center;
-    color: black;
+    color: rgb(202, 121, 28);
+    font-weight: bold;
 }
 
 .mainn {
@@ -293,7 +298,7 @@ footer.nb-footer .copyright p {
     display: flex;
     justify-content: center;
     margin-top: 15px;
-    margin-left: 70px;
+    margin-left: 90px;
     border-radius: 20px;
     border-color: green;
     color: green;
