@@ -180,7 +180,9 @@
     background-color: whitesmoke;
     margin-top: -3rem;
 }
-
+.distance{
+    margin: 70px;
+}
 .food-container-lone {
     display: flex;
     justify-content: center;
@@ -311,6 +313,10 @@ footer.nb-footer .copyright p {
 } */
 .food-container-all{
     margin-top: -3rem;
+}
+.food-container-all-1{
+    margin-top: -3rem;
+    margin-bottom: 50px;
 }
 .food-item h5{
     margin-top: 1rem;
