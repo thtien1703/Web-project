@@ -15,7 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
         integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 
 <body>
@@ -55,12 +55,32 @@
                     <li> <a href="../html/heade.html" class="header-right-li">TRANG CHỦ </a></li>
                     <li> <a href="../html/thucdon.html" class="header-right-li">THỰC ĐƠN</a> </li>
                     <li> <a href="../html/datban.html" class="header-right-li">ĐẶT BÀN </a> </li>
-                    <li> <a href="../html/lienhe.html" class="header-right-li"> LIÊN HỆ </a></li>
-
-                    <li style="margin-top: -7px"> <a class=" btn" href="#" id="login" data-toggle="modal"
-                            data-target="#myModal"><i class="fa-solid fa-user"></i></a>
+                    <li><a class="btn" href="#" id="LH" data-toggle="modal" data-target="#myModalLH"
+                            style="margin-top: -6.5px;"> LIÊN
+                            HỆ </a></li>
+                    <div class="header-right-user">
+                        <!-- <a href="../html/lienhe.html" class="header-right-li"></a> -->
+                        <li> <i class="fa-solid fa-user" style="margin-left: 21px;"></i></a>
+                            <!-- <a class=" btn" href="#" id="login" data-toggle="modal"
+                            data-target="#myModal"> -->
+                            <div class="header-login">
+                                <ul class="header-login-list">
+                                    <!-- header-login-link-login -->
+                                    <li class="header-login-item">
+                                        <a class=" btn" href="#" id="login" data-toggle="modal"
+                                            data-target="#myModalSigin">Đăng ký </a>
+                                    </li>
+                                    <li class="header-login-item">
+                                        <a class=" btn" href="#" id="login" data-toggle="modal"
+                                            data-target="#myModal-Login">Đăng nhập</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
                     </li>
-               
+                    <li style="margin-top: -7px; margin-left: -12.5rem;"><a class="btn" href="#" id="cart"
+                            data-toggle="modal" data-target="#myModal1"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
             </div>
         </div>
         <div class="bander">
@@ -278,8 +298,8 @@
                             <ul class="list-unstyled">
                                 <li><a><i class="fa fa-angle-double-right"></i> Vương Ngọc Huệ -
                                         21050051</a></li>
-                                <li><a><i class="fa fa-angle-double-right"></i> Phạm Thanh Tiến -
-                                        21084401</a></li>
+                                <li><a><i class="fa fa-angle-double-right"></i>
+                                       </a></li>
                             </ul>
                         </div>
                     </div>
@@ -288,7 +308,7 @@
                             <h2 class="title"> LƯU Ý</h2>
                             <p>Đối với những trường hợp nhân viên không xuất hóa đơn giấy khi thanh toán tại
                                 nhà
-                                hàng hoặc khi hóa đơn điện tử khi đặt hàng trực tuyến. Qúy khách vui lòng
+                                hàng hoặc hóa đơn điện tử khi đặt hàng trực tuyến. Qúy khách vui lòng
                                 liên hệ
                                 cho chúng tôi để được hoàn lại 200% giá trị đơn hàng</p>
                         </div>
@@ -299,7 +319,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <p>Copyright © 2023. Cung cấp bởi Vương Ngọc Huệ và Phạm Thanh Tiến</p>
+                            <p>Copyright © 2023. Cung cấp bởi Vương Ngọc Huệ</p>
                         </div>
                         <div class="col-sm-6"></div>
                     </div>
@@ -307,11 +327,11 @@
             </section>
         </footer>
     </div>
-    <div class="container">
-        <div class="modal face" id="myModal">
+    <div class="content">
+        <div class="modal face" id="myModal1">
             <div class="modal-dialog-centered modal-lg">
                 <div class="modal-content">
-                    <div class="modal-header" style="height: 80px;">
+                    <div class="header">
                         <div class="header-left">
                             <div style="display: flex;">
                                 <a href="../html/heade.html"> <img src="../png/logowhitered.jpg" alt=""
@@ -341,126 +361,905 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="header--right" style="margin-left: 72rem;">
-
-                            <ul class="header-right" style="    width: 100%; margin-left: 4rem;">
+                        <div class="header--right" style="margin-right: -50rem;">
+                            <ul class="header-right">
                                 <i class="fa-solid fa-house" style="margin-top: 3px"></i>
                                 <li> <a href="../html/heade.html" class="header-right-li">TRANG CHỦ </a></li>
                                 <li> <a href="../html/thucdon.html" class="header-right-li">THỰC ĐƠN</a> </li>
                                 <li> <a href="../html/datban.html" class="header-right-li">ĐẶT BÀN </a> </li>
-                                <li> <a href="../html/lienhe.html" class="header-right-li"> LIÊN HỆ </a></li>
-
-                                <li style="margin-top: -7px"> <a class=" btn" href="#" id="login" data-toggle="modal"
-                                        data-target="#myModal"><i class="fa-solid fa-user"></i></a>
-
+                                <li><a class="btn" href="#" id="LH" data-toggle="modal" data-target="#myModalLH"
+                                        style="margin-top: -6.5px;"> LIÊN
+                                        HỆ </a></li>
+                                <!-- <a href="../html/lienhe.html" class="header-right-li"></a> -->
+                                <div class="header-right-user">
+                                    <li> <i class="fa-solid fa-user" style="margin-left: 21px;"></i></a>
+                                        <!-- <a class=" btn" href="#" id="login" data-toggle="modal"
+                                        data-target="#myModal"> -->
+                                        <div class="header-login">
+                                            <ul class="header-login-list">
+                                                <li class="header-login-item">
+                                                    <a class=" btn" href="#" id="login" data-toggle="modal"
+                                                        data-target="#myModal-Login">Đăng nhập</a>
+                                                </li>
+                                                <!-- header-login-link-login -->
+                                                <li class="header-login-item">
+                                                    <a class=" btn" href="#" id="login" data-toggle="modal"
+                                                        data-target="#myModalSigin">Đăng ký</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </div>
+                                <li style="margin-top: -7px; margin-left: -12.5rem;"><a class="btn" href="#" id="cart"
+                                        data-toggle="modal" data-target="#myModal1"><i
+                                            class="fa-solid fa-cart-shopping"></i></a>
                                 </li>
-                            </ul>
                         </div>
-
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body" style="padding: 0;">
                         <div>
-                            <section class="vh-100" style="background-color: #eee;">
-                                <div class="container h-100">
-                                    <div class="row d-flex justify-content-center align-items-center h-100">
-                                        <div class="col-lg-12 col-xl-11">
-                                            <div class="card text-black" style="border-radius: 25px;">
-                                                <div class="card-body p-md-5">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
-                                                            <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">
-                                                                Sign up</p>
-                                                            <form class="mx-1 mx-md-4">
-                                                                <div class="d-flex flex-row align-items-center mb-4">
-                                                                    <i class="fas fa-user fa-lg me-3 fa-fw"
-                                                                        style="margin-top: -10px;"></i>
-                                                                    <div class="form-outline flex-fill mb-0">
-                                                                        <input type="text" id="form3Example1c"
-                                                                            class="form-control" />
-                                                                        <label class="form-label" for="form3Example1c"
-                                                                            style="font-weight: normal; color: gray;">Your
-                                                                            Name</label>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="d-flex flex-row align-items-center mb-4">
-                                                                    <i class="fas fa-envelope fa-lg me-3 fa-fw"
-                                                                        style="margin-top: -10px;"></i>
-                                                                    <div class="form-outline flex-fill mb-0">
-                                                                        <input type="email" id="form3Example3c"
-                                                                            class="form-control" />
-                                                                        <label class="form-label"
-                                                                            for="form3Example3c">Your Email</label>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="d-flex flex-row align-items-center mb-4">
-                                                                    <i class="fas fa-lock fa-lg me-3 fa-fw"
-                                                                        style="margin-top: -10px;"></i>
-                                                                    <div class="form-outline flex-fill mb-0">
-                                                                        <input type="password" id="form3Example4c"
-                                                                            class="form-control" />
-                                                                        <label class="form-label"
-                                                                            for="form3Example4c">Password</label>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="d-flex flex-row align-items-center mb-4">
-                                                                    <i class="fas fa-key fa-lg me-3 fa-fw"
-                                                                        style="margin-top: -10px;"></i>
-                                                                    <div class="form-outline flex-fill mb-0">
-                                                                        <input type="password" id="form3Example4cd"
-                                                                            class="form-control" />
-                                                                        <label class="form-label"
-                                                                            for="form3Example4cd">Repeat your
-                                                                            password</label>
-                                                                    </div>
-                                                                </div>
-                                                                <div
-                                                                    class="form-check d-flex justify-content-center mb-5">
-                                                                    <input style="    margin-top: 7px;
-                                                  margin-right: 18rem;" class="form-check-input me-2" type="checkbox"
-                                                                        value="" id="form2Example3c" />
-                                                                    <label class="form-check-label" for="form2Example3">
-                                                                        I agree all statements in <a href="#!">Terms of
-                                                                            service</a>
-                                                                    </label>
-                                                                </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                                                    <button type="button"
-                                                                        class="btn btn-primary btn-lg">Register</button>
-                                                                </div>
-                                                                <div
-                                                                    class="form-check d-flex justify-content-center mb-5">
-                                                                    <label class="form-check-label" for="form2Example3">
-                                                                        Have already an account? <a href="#"
-                                                                            id="btnDK">Login
-                                                                            here</a>
-                                                                    </label>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                        <div
-                                                            class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-                                                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
-                                                                class="img-fluid" alt="Sample image">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                            <button type="button" class="close" data-toggle="myModal" data-target="#myModal1"
+                                data-dismiss="modal">&times;</button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-content">
+                            Hiện tại nhà phát triển chưa phát triển phần này.</br>
+                            Bạn vui lòng đợi trong thời gian tới.
+                        </div>
+                    </div>
+                    <footer class="nb-footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="about">
+                                        <img src="images/logo.png" class="img-responsive center-block" alt="">
+                                        <p>Kết nối với chúng tôi thông qua các mạng xã hội </p>
+                                        <div class="social-media">
+                                            <ul class="list-inline" style="display: flex;
+                                /* text-align: center; */
+                                justify-content: center;">
+                                                <li style="margin-right: 10px;"><a
+                                                        href="https://www.facebook.com/ho.thinh.06?mibextid=LQQJ4d"
+                                                        title=""><i class="fa-brands fa-facebook"></i></a></li>
+                                                <li style="margin-right: 10px;"> <a
+                                                        href="https://www.instagram.com/wang_ok_hye/" title=""><i
+                                                            class="fa-brands fa-twitter"></i></a></li>
+                                                <li style="margin-right: 10px;"><a
+                                                        href="https://www.instagram.com/_thtien03/" title=""><i
+                                                            class="fa-brands fa-instagram"></i></a></li>
+                                                <li style="margin-right: 10px;"><a
+                                                        href="https://www.youtube.com/@vuongngochue9192/videos"
+                                                        title=""><i class="fa-brands fa-youtube"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
-                            </section>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="footer-info-single">
+                                        <h2 class="title"> Dịch vụ và thông tin khác</h2>
+                                        <ul class="list-unstyled">
+                                            <li><a href="../html/tuyendung.html" title="" style="display: contents;"><i
+                                                        class="fa fa-angle-double-right"></i>
+                                                    Tuyển dụng</a></li>
+                                            <li><a href="../html/csdoitra.html" title="" style="display: contents;"><i
+                                                        class="fa fa-angle-double-right"></i>
+                                                    Chính sách đổi trả</a></li>
+                                            <li><a href="../html/hdmuahang.html" title="" style="display: contents;"><i
+                                                        class="fa fa-angle-double-right"></i>
+                                                    Hướng dẫn mua hàng</a></li>
+                                            <li><a href="../html/csvanchuyen.html" title="" style="display: contents;">
+                                                    <i class="fa fa-angle-double-right"></i>
+                                                    Chính sách vận chuyển</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="footer-info-single">
+                                        <h2 class="title"> TỔNG ĐÀI HỖ TRỢ</h2>
+                                        <ul class="list-unstyled">
+                                            <li><a><i class="fa fa-angle-double-right"></i> Đặt bàn: 0334599999
+                                                    (9:00-22:00)</a>
+                                            </li>
+                                            <li><a><i class="fa fa-angle-double-right"></i> Khiếu nại: 0334577777
+                                                    (9:00-23:00)</a></li>
+                                            <li><a><i class="fa fa-angle-double-right"></i> Email:
+                                                    SearchRestaurant@gmail.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="footer-info-single">
+                                        <h2 class="title"> THÀNH VIÊN</h2>
+                                        <ul class="list-unstyled">
+                                            <li><a><i class="fa fa-angle-double-right"></i> Vương Ngọc Huệ -
+                                                    21050051</a></li>
+                                            <li><a><i class="fa fa-angle-double-right"></i> 
+                                                   </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="footer-info-single">
+                                        <h2 class="title"> LƯU Ý</h2>
+                                        <p>Đối với những trường hợp nhân viên không xuất hóa đơn giấy khi thanh toán
+                                            tại
+                                            nhà
+                                            hàng hoặc hóa đơn điện tử khi đặt hàng trực tuyến. Qúy khách vui lòng
+                                            liên hệ
+                                            cho chúng tôi để được hoàn lại 200% giá trị đơn hàng</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <section class="copyright">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <p>Copyright © 2023. Cung cấp bởi Vương Ngọc Huệ </p>
+                                    </div>
+                                    <div class="col-sm-6"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="modal face" id="myModalLH">
+            <div class="modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header" style="height: 80px;">
+                        <div class="header">
+                            <div class="header-left">
+                                <div style="display: flex;">
+                                    <a href="../html/heade.html"> <img src="../png/logowhitered.jpg" alt=""
+                                            class="header-left-img"></a>
+                                    <div style="display: flex; margin-top: 19%; margin-left: -7%;">
+                                        <a href="../html/heade.html" style="display: flex; display: contents;">
+                                            <div style="color: blue;">
+                                                S
+                                            </div>
+
+                                            <div style="color: orange;">
+                                                e
+                                            </div>
+                                            <div style="color: red;">
+                                                a
+                                            </div>
+                                            <div style="color: green;">
+                                                r
+                                            </div>
+                                            <div style="color: red;">
+                                                c
+                                            </div>
+                                            <div style="color: blue;">
+                                                h
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header--right" style="margin-right: 10rem;">
+                                <ul class="header-right">
+                                    <i class="fa-solid fa-house" style="margin-top: 3px"></i>
+                                    <li> <a href="../html/heade.html" class="header-right-li">TRANG CHỦ </a></li>
+                                    <li> <a href="../html/thucdon.html" class="header-right-li">THỰC ĐƠN</a> </li>
+                                    <li> <a href="../html/datban.html" class="header-right-li">ĐẶT BÀN </a> </li>
+                                    <li><a class="btn" href="#" id="LH" data-toggle="modal" data-target="#myModalLH"
+                                            style="margin-top: -6.5px;"> LIÊN
+                                            HỆ </a></li>
+                                    <!-- <a href="../html/lienhe.html" class="header-right-li"></a> -->
+                                    <li style="margin-top: -7px"> <i class="fa-solid fa-user"></i></a>
+                                        <!-- <a class=" btn" href="#" id="login" data-toggle="modal"
+                                            data-target="#myModal"> -->
+                                        <div class="header-login">
+                                            <ul class="header-login-list">
+                                                <li class="header-login-item">
+                                                    <a class=" btn" href="#" id="login" data-toggle="modal"
+                                                        data-target="#myModal-Login">Đăng nhập</a>
+                                                </li>
+                                                <!-- header-login-link-login -->
+                                                <li class="header-login-item">
+                                                    <a class=" btn" href="#" id="login" data-toggle="modal"
+                                                        data-target="#myModalSigin">Đăng ký</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li style="margin-top: -7px; margin-left: -12.5rem;"><a class="btn" href="#"
+                                            id="cart" data-toggle="modal" data-target="#myModal1"><i
+                                                class="fa-solid fa-cart-shopping"></i></a>
+                                    </li>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="close" data-toggle="myModal" data-target="#myModalLH"
+                                data-dismiss="modal">&times;</button>
+                        </div>
+                    </div>
+                    <div class="modal-bander">
+                        <div>
+                            <img src="../png/hinhband.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <!-- <div class="content-content">
+                            Hiện tại nhà phát triển chưa phát triển phần này.</br>
+                            Bạn vui lòng đợi trong thời gian tới.
+                        </div> -->
+
+                        <div class="contentLH">
+                            <div class="content-left">
+                                <div>
+                                    <h2>
+                                        <!-- <b> -->
+                                        Liên hệ với chúng tôi
+                                        </b>
+                                    </h2>
+                                </div>
+                                <div class="lienhe-2">
+                                    <h3>
+                                        <!-- <b> -->
+                                        THÔNG TIN CHI TIẾT
+                                        </b>
+                                    </h3>
+                                </div>
+                                <div class="lienhe-3">
+                                    <div>
+                                        <div class="lienhe-3-1">
+                                            <div class="lienhe-3-1-add">
+
+                                                <h5><b>
+                                                        Địa chỉ:
+                                                    </b>
+                                                </h5>
+
+                                            </div>
+                                            <div class="lienhe-3-1-sdt">
+                                                999 Nguyễn Văn Bảo phường 4 Gò Vấp, thành phố Hồ Chí Minh
+                                            </div>
+                                        </div>
+                                        <div class="lienhe-3-2">
+                                            <div class="lienhe-3-1-add">
+                                                <h5>
+                                                    <b>Điện thoại:</b>
+                                                </h5>
+                                            </div>
+                                            <div class="lienhe-3-1-sdt">0334599999</div>
+                                        </div>
+                                        <div class="lienhe-3-1">
+                                            <div class="lienhe-3-1-add">
+                                                <h5>
+                                                    <b>Email:</b>
+                                                </h5>
+                                            </div>
+                                            <div class="lienhe-3-1-sdt">SearchRestaurant@gmail.com</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="lienhe-3-3">
+                                            <h3>Search Restaurant - Chi nhánh 1</h3>
+                                        </div>
+                                        <div class="lienhe-3-1">
+                                            <div class="lienhe-3-1-add">
+                                                <h5><b>Địa chỉ:</b></h5>
+                                            </div>
+                                            <div class="lienhe-3-1-sdt">
+                                                999 Nguyễn Văn Bảo phường 4 Gò Vấp, thành phố Hồ Chí Minh
+                                            </div>
+                                        </div>
+                                        <div class="lienhe-3-2">
+                                            <div class="lienhe-3-1-add">
+                                                <h5><b>Điện thoại:</b></h5>
+                                            </div>
+                                            <div class="lienhe-3-1-sdt">0334599999</div>
+                                        </div>
+
+                                        <div class="lienhe-3-2">
+                                            <div>
+                                                <h5><b>Thời gian làm việc:</b></h5>
+                                            </div>
+                                            <div class="lienhe-3-1-sdt">
+                                                9:00 - 23:00 hàng ngày</div>
+                                        </div>
+                                    </div>
+                                    <div class="lienhe-3-4">
+                                        <h3>Search Restaurant - Chi nhánh 2</h3>
+                                    </div>
+                                </div>
+                                <div class="lienhe-3-1">
+                                    <div class="lienhe-3-1-add">
+                                        <h5><b>Địa chỉ:</h5></b>
+                                    </div>
+                                    <div class="lienhe-3-1-sdt">
+                                        888 Nguyễn Văn Bảo phường 4 Gò Vấp, thành phố Hồ Chí Minh
+                                    </div>
+                                </div>
+                                <div class="lienhe-3-2">
+                                    <div class="lienhe-3-1-add">
+                                        <h5><b>Điện thoại:</h5></b>
+                                    </div>
+                                    <div class="lienhe-3-1-sdt">0334588888</div>
+                                </div>
+
+                                <div class="lienhe-3-2">
+                                    <div class="lienhe-3-1-add">
+                                        <h5><b>Thời gian làm việc:</h5></b>
+                                    </div>
+                                    <div class="lienhe-3-1-sdt">9:00 - 23:00 hàng ngày</div>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <DIV>
+                                    <h3>GỬI Ý KIẾN CHO CHÚNG TÔI</h3>
+                                </DIV>
+                                <div class="content-right-input">
+                                    <div class="content-right-iput">
+                                        <div>
+                                            Họ và tên <br>
+                                            <input type="text"><br>
+                                        </div>
+
+                                        <div class="content-right-iput-sdt">
+                                            Email: <br>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="content-right-iput-ykien">
+                                        Ý kiến đóng góp
+                                        <div class="content-right-iput-ykien-textarea">
+                                            <textarea name="" id="" cols="80" rows="10"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-right-button">
+                                    <button>Gửi ngay</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'
+                        rel='stylesheet' />
+                    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"
+                        id="bootstrap-css">
+                    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+                    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                    <footer class="nb-footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="about">
+                                        <img src="images/logo.png" class="img-responsive center-block" alt="">
+                                        <p>Kết nối với chúng tôi thông qua các mạng xã hội </p>
+                                        <div class="social-media">
+                                            <ul class="list-inline">
+                                                <li><a href="https://www.facebook.com/ho.thinh.06?mibextid=LQQJ4d"
+                                                        title=""><i class="fa-brands fa-facebook"></i></a></li>
+                                                <li><a href="" title=""><i class="fa-brands fa-twitter"></i></a>
+                                                </li>
+                                                <li><a href="" title=""><i class="fa-brands fa-instagram"></i></a>
+                                                </li>
+                                                <li><a href="https://www.youtube.com/@vuongngochue9192/videos"
+                                                        title=""><i class="fa-brands fa-youtube"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="footer-info-single">
+                                        <h2 class="title"> Dịch vụ và thông tin khác</h2>
+                                        <ul class="list-unstyled">
+                                            <li><a href="../html/tuyendung.html" title=""><i
+                                                        class="fa fa-angle-double-right"></i>
+                                                    Tuyển dụng</a></li>
+                                            <li><a href="../html/csdoitra.html" title=""><i
+                                                        class="fa fa-angle-double-right"></i>
+                                                    Chính sách đổi trả</a></li>
+                                            <li><a href="../html/hdmuahang.html" title=""><i
+                                                        class="fa fa-angle-double-right"></i>
+                                                    Hướng dẫn mua hàng</a></li>
+                                            <li><a href="../html/csvanchuyen.html" title=""><i
+                                                        class="fa fa-angle-double-right"></i>
+                                                    Chính sách vận chuyển</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="footer-info-single">
+                                        <h2 class="title"> TỔNG ĐÀI HỖ TRỢ</h2>
+                                        <ul class="list-unstyled">
+                                            <li><a><i class="fa fa-angle-double-right"></i> Đặt bàn: 0334599999
+                                                    (9:00-22:00)</a>
+                                            </li>
+                                            <li><a><i class="fa fa-angle-double-right"></i> Khiếu nại: 0334577777
+                                                    (9:00-23:00)</a></li>
+                                            <li><a><i class="fa fa-angle-double-right"></i> Email:
+                                                    SearchRestaurant@gmail.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="footer-info-single">
+                                        <h2 class="title"> THÀNH VIÊN</h2>
+                                        <ul class="list-unstyled">
+                                            <li><a><i class="fa fa-angle-double-right"></i> Vương Ngọc Huệ -
+                                                    21050051</a></li>
+                                            <li><a><i class="fa fa-angle-double-right"></i> </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="footer-info-single">
+                                        <h2 class="title"> LƯU Ý</h2>
+                                        <p>Đối với những trường hợp nhân viên không xuất hóa đơn giấy khi thanh toán
+                                            tại
+                                            nhà
+                                            hàng hoặc hóa đơn điện tử khi đặt hàng trực tuyến. Qúy khách vui lòng
+                                            liên hệ
+                                            cho chúng tôi để được hoàn lại 200% giá trị đơn hàng</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="copyright">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <p>Copyright © 2023. Cung cấp bởi Vương Ngọc Huệ.</p>
+                                    </div>
+                                    <div class="col-sm-6"></div>
+                                </div>
+                            </div>
+                        </section>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-login-signin">
+        <div class="modal face" id="myModalSigin">
+            <div class="modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header" style="padding: inherit;">
+                        <div class="header">
+                            <div class="header-left">
+                                <div style="display: flex;">
+                                    <a href="../html/heade.html"> <img src="../png/logowhitered.jpg" alt=""
+                                            class="header-left-img"></a>
+                                    <div style="display: flex; margin-top: 19%; margin-left: -7%;">
+                                        <a href="../html/heade.html" style="display: flex; display: contents;">
+                                            <div style="color: blue;">
+                                                S
+                                            </div>
+
+                                            <div style="color: orange;">
+                                                e
+                                            </div>
+                                            <div style="color: red;">
+                                                a
+                                            </div>
+                                            <div style="color: green;">
+                                                r
+                                            </div>
+                                            <div style="color: red;">
+                                                c
+                                            </div>
+                                            <div style="color: blue;">
+                                                h
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header--right" style="margin-right: 10rem;">
+                                <ul class="header-right">
+                                    <i class="fa-solid fa-house" style="margin-top: 3px"></i>
+                                    <li> <a href="../html/heade.html" class="header-right-li">TRANG CHỦ </a></li>
+                                    <li> <a href="../html/thucdon.html" class="header-right-li">THỰC ĐƠN</a> </li>
+                                    <li> <a href="../html/datban.html" class="header-right-li">ĐẶT BÀN </a> </li>
+                                    <li><a class="btn" href="#" id="LH" data-toggle="modal" data-target="#myModalLH"
+                                            style="margin-top: -6.5px;"> LIÊN
+                                            HỆ </a></li>
+                                    <!-- <a href="../html/lienhe.html" class="header-right-li"></a> -->
+                                    <div class="header-right-user">
+                                        <li> <i class="fa-solid fa-user" style="margin-left: 21px;"></i></a>
+                                            <!-- <a class=" btn" href="#" id="login" data-toggle="modal"
+                                            data-target="#myModal"> -->
+                                            <div class="header-login">
+                                                <ul class="header-login-list">
+                                                    <li class="header-login-item">
+                                                        <a class=" btn" href="#" id="login" data-toggle="modal"
+                                                            data-target="#myModal-Login">Đăng nhập</a>
+                                                    </li>
+                                                    <!-- header-login-link-login -->
+                                                    <li class="header-login-item">
+                                                        <a class=" btn" href="#" id="login" data-toggle="modal"
+                                                            data-target="#myModalSigin">Đăng ký</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                    </div>
+                                    </li>
+                                    <li style="margin-top: -7px; margin-left: -12.5rem;">
+                                        <a class="btn" href="#" id="cart" data-toggle="modal" data-target="#myModal1">
+                                            <i class="fa-solid fa-cart-shopping"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="body-dk">
+                            <div class="body-1">
+                                <b>
+                                    <h2>
+                                        ĐĂNG KÝ THÀNH VIÊN
+                                    </h2>
+                                </b>
+                            </div>
+                            <div class="body-2">
+                                <h3 style="padding-top: 30px;">
+                                    ĐĂNG KÝ THÀNH VIÊN
+                                </h3>
+                                <div class="input-body">
+                                    <input type="text" placeholder="Họ & tên"> <br>
+                                    <input type="text" placeholder="Email"><br>
+                                    <input type="text" placeholder="Số điện thoại"><br>
+                                    <input type="text" placeholder="Mật khẩu"><br>
+                                </div>
+                                <button class="button-body">Đăng ký</button><br>
+                                Nếu đã có tài khoản, bạn có thể đăng nhập <a class=" btn" href="#" id="login"
+                                    data-toggle="modal" data-target="#myModal-Login"><b
+                                        style="color: black; margin-left: -12px;">tại
+                                        đây</b> </a> <br>
+                                <b>
+                                    Hoặc đăng nhập bằng
+                                </b> <br>
+                                <div class="button2-boday">
+                                    <button style="background-color: blue; color: white;">
+                                        <a href="https://vi-vn.facebook.com/"> <i class="fa-brands fa-facebook-f"></i>
+                                            Facebook</a>
+                                    </button>
+                                    <button style="background-color: brown; color: white">
+                                        <a
+                                            href="https://accounts.google.com/InteractiveLogin/signinchooser?hl=vi&ifkv=AXo7B7UHNxRAD1HfM4X0O2fTQwzc-QX_yR1SX2aq6y6ohP7KEBQd0e7Z8SgsWRtE3DEdMEVHX3y_OQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                                            <i class="fa-brands fa-google-plus-g"></i> Google</a>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="display: block;
+                    text-align: revert;">
+                        <footer class="nb-footer">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="about">
+                                            <img src="images/logo.png" class="img-responsive center-block" alt="">
+                                            <p>Kết nối với chúng tôi thông qua các mạng xã hội </p>
+                                            <div class="social-media">
+                                                <ul class="list-inline" style="display: flex;
+                                    /* text-align: center; */
+                                    justify-content: center;">
+                                                    <li style="margin-right: 10px;"><a
+                                                            href="https://www.facebook.com/ho.thinh.06?mibextid=LQQJ4d"
+                                                            title=""><i class="fa-brands fa-facebook"></i></a></li>
+                                                    <li style="margin-right: 10px;"> <a
+                                                            href="https://www.instagram.com/wang_ok_hye/" title=""><i
+                                                                class="fa-brands fa-twitter"></i></a></li>
+                                                    <li style="margin-right: 10px;"><a
+                                                            href="https://www.instagram.com/_thtien03/" title=""><i
+                                                                class="fa-brands fa-instagram"></i></a></li>
+                                                    <li style="margin-right: 10px;"><a
+                                                            href="https://www.youtube.com/@vuongngochue9192/videos"
+                                                            title=""><i class="fa-brands fa-youtube"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="footer-info-single">
+                                            <h2 class="title"> Dịch vụ và thông tin khác</h2>
+                                            <ul class="list-unstyled">
+                                                <li><a href="../html/tuyendung.html" title=""
+                                                        style="display: contents;"><i
+                                                            class="fa fa-angle-double-right"></i>
+                                                        Tuyển dụng</a></li>
+                                                <li><a href="../html/csdoitra.html" title=""
+                                                        style="display: contents;"><i
+                                                            class="fa fa-angle-double-right"></i>
+                                                        Chính sách đổi trả</a></li>
+                                                <li><a href="../html/hdmuahang.html" title=""
+                                                        style="display: contents;"><i
+                                                            class="fa fa-angle-double-right"></i>
+                                                        Hướng dẫn mua hàng</a></li>
+                                                <li><a href="../html/csvanchuyen.html" title=""
+                                                        style="display: contents;"> <i
+                                                            class="fa fa-angle-double-right"></i>
+                                                        Chính sách vận chuyển</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="footer-info-single">
+                                            <h2 class="title"> TỔNG ĐÀI HỖ TRỢ</h2>
+                                            <ul class="list-unstyled">
+                                                <li><a><i class="fa fa-angle-double-right"></i> Đặt bàn: 0334599999
+                                                        (9:00-22:00)</a>
+                                                </li>
+                                                <li><a><i class="fa fa-angle-double-right"></i> Khiếu nại:
+                                                        0334577777
+                                                        (9:00-23:00)</a></li>
+                                                <li><a><i class="fa fa-angle-double-right"></i> Email:
+                                                        SearchRestaurant@gmail.com</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="footer-info-single">
+                                            <h2 class="title"> THÀNH VIÊN</h2>
+                                            <ul class="list-unstyled">
+                                                <li><a><i class="fa fa-angle-double-right"></i> Vương Ngọc Huệ -
+                                                        21050051</a></li>
+                                                <li><a><i class="fa fa-angle-double-right"></i> </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="footer-info-single">
+                                            <h2 class="title"> LƯU Ý</h2>
+                                            <p>Đối với những trường hợp nhân viên không xuất hóa đơn giấy khi thanh
+                                                toán
+                                                tại
+                                                nhà
+                                                hàng hoặc hóa đơn điện tử khi đặt hàng trực tuyến. Qúy khách vui
+                                                lòng
+                                                liên hệ
+                                                cho chúng tôi để được hoàn lại 200% giá trị đơn hàng</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <section class="copyright">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <p>Copyright © 2023. Cung cấp bởi Vương Ngọc Huệ</p>
+                                        </div>
+                                        <div class="col-sm-6"></div>
+                                    </div>
+                                </div>
+                            </section>
+                        </footer>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--  -->
-    <!--  -->
+    <div class="header-login-signin">
+        <div class="modal face" id="myModal-Login">
+            <div class="modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header" style="padding: inherit;">
+                        <div class="header">
+                            <div class="header-left">
+                                <div style="display: flex;">
+                                    <a href="../html/heade.html"> <img src="../png/logowhitered.jpg" alt=""
+                                            class="header-left-img"></a>
+                                    <div style="display: flex; margin-top: 19%; margin-left: -7%;">
+                                        <a href="../html/heade.html" style="display: flex; display: contents;">
+                                            <div style="color: blue;">
+                                                S
+                                            </div>
+
+                                            <div style="color: orange;">
+                                                e
+                                            </div>
+                                            <div style="color: red;">
+                                                a
+                                            </div>
+                                            <div style="color: green;">
+                                                r
+                                            </div>
+                                            <div style="color: red;">
+                                                c
+                                            </div>
+                                            <div style="color: blue;">
+                                                h
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header--right" style="margin-right: 10rem;">
+                                <ul class="header-right">
+                                    <i class="fa-solid fa-house" style="margin-top: 3px"></i>
+                                    <li> <a href="../html/heade.html" class="header-right-li">TRANG CHỦ </a></li>
+                                    <li> <a href="../html/thucdon.html" class="header-right-li">THỰC ĐƠN</a> </li>
+                                    <li> <a href="../html/datban.html" class="header-right-li">ĐẶT BÀN </a> </li>
+                                    <li><a class="btn" href="#" id="LH" data-toggle="modal" data-target="#myModalLH"
+                                            style="margin-top: -6.5px;"> LIÊN
+                                            HỆ </a></li>
+                                    <div class="header-right-user">
+                                        <li> <i class="fa-solid fa-user" style="margin-left: 21px;"></i></a>
+                                            <div class="header-login">
+                                                <ul class="header-login-list">
+                                                    <li class="header-login-item">
+                                                        <a class=" btn" href="#" id="login" data-toggle="modal"
+                                                            data-target="#myModal-Login">Đăng nhập</a>
+                                                    </li>
+                                                    <li class="header-login-item">
+                                                        <a class=" btn" href="#" id="login" data-toggle="modal"
+                                                            data-target="#myModalSigin">Đăng ký</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <li style="margin-top: -7px; margin-left: -12.5rem;">
+                                        <a class="btn" href="#" id="cart" data-toggle="modal" data-target="#myModal1">
+                                            <i class="fa-solid fa-cart-shopping"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="body">
+                            <div class="body-1">
+                                <b>
+                                    <h2>
+                                        ĐĂNG NHẬP TÀI KHOẢN
+                                    </h2>
+                                </b>
+                            </div>
+                            <div class="body-2">
+                                <h3 style="padding-top: 30px;">
+                                    ĐĂNG NHẬP TÀI KHOẢN
+                                </h3>
+                                <div class="input-body">
+                                    <input type="text" placeholder="Email"><br>
+                                    <input type="text" placeholder="Mật khẩu"><br>
+                                </div>
+                                <div>
+                                    <a href="">
+                                        Quên Mật khẩu?
+                                    </a> <br>
+                                </div>
+                                <button class="button-body">
+                                    Đăng nhập
+                                </button> <br>
+                                Hoặc đăng nhập bằng<br>
+                                <div class="button2-boday">
+                                    <button style="background-color: blue; color: white;">
+                                        <a href="https://vi-vn.facebook.com/"> <i class="fa-brands fa-facebook-f"></i>
+                                            Facebook</a>
+                                    </button>
+                                    <button style="background-color: brown; color: white">
+                                        <a
+                                            href="https://accounts.google.com/InteractiveLogin/signinchooser?hl=vi&ifkv=AXo7B7UHNxRAD1HfM4X0O2fTQwzc-QX_yR1SX2aq6y6ohP7KEBQd0e7Z8SgsWRtE3DEdMEVHX3y_OQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                                            <i class="fa-brands fa-google-plus-g"></i> Google</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="display: block; text-align: revert;">
+                        <footer class="nb-footer">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="about">
+                                            <img src="images/logo.png" class="img-responsive center-block" alt="">
+                                            <p>Kết nối với chúng tôi thông qua các mạng xã hội </p>
+                                            <div class="social-media">
+                                                <ul class="list-inline" style="display: flex;
+                                    /* text-align: center; */
+                                    justify-content: center;">
+                                                    <li style="margin-right: 10px;"><a
+                                                            href="https://www.facebook.com/ho.thinh.06?mibextid=LQQJ4d"
+                                                            title=""><i class="fa-brands fa-facebook"></i></a></li>
+                                                    <li style="margin-right: 10px;"> <a
+                                                            href="https://www.instagram.com/wang_ok_hye/" title=""><i
+                                                                class="fa-brands fa-twitter"></i></a></li>
+                                                    <li style="margin-right: 10px;"><a
+                                                            href="https://www.instagram.com/_thtien03/" title=""><i
+                                                                class="fa-brands fa-instagram"></i></a></li>
+                                                    <li style="margin-right: 10px;"><a
+                                                            href="https://www.youtube.com/@vuongngochue9192/videos"
+                                                            title=""><i class="fa-brands fa-youtube"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="footer-info-single">
+                                            <h2 class="title"> Dịch vụ và thông tin khác</h2>
+                                            <ul class="list-unstyled">
+                                                <li><a href="../html/tuyendung.html" title=""
+                                                        style="display: contents;"><i
+                                                            class="fa fa-angle-double-right"></i>
+                                                        Tuyển dụng</a></li>
+                                                <li><a href="../html/csdoitra.html" title=""
+                                                        style="display: contents;"><i
+                                                            class="fa fa-angle-double-right"></i>
+                                                        Chính sách đổi trả</a></li>
+                                                <li><a href="../html/hdmuahang.html" title=""
+                                                        style="display: contents;"><i
+                                                            class="fa fa-angle-double-right"></i>
+                                                        Hướng dẫn mua hàng</a></li>
+                                                <li><a href="../html/csvanchuyen.html" title=""
+                                                        style="display: contents;"> <i
+                                                            class="fa fa-angle-double-right"></i>
+                                                        Chính sách vận chuyển</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="footer-info-single">
+                                            <h2 class="title"> TỔNG ĐÀI HỖ TRỢ</h2>
+                                            <ul class="list-unstyled">
+                                                <li><a><i class="fa fa-angle-double-right"></i> Đặt bàn: 0334599999
+                                                        (9:00-22:00)</a>
+                                                </li>
+                                                <li><a><i class="fa fa-angle-double-right"></i> Khiếu nại:
+                                                        0334577777
+                                                        (9:00-23:00)</a></li>
+                                                <li><a><i class="fa fa-angle-double-right"></i> Email:
+                                                        SearchRestaurant@gmail.com</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="footer-info-single">
+                                            <h2 class="title"> THÀNH VIÊN</h2>
+                                            <ul class="list-unstyled">
+                                                <li><a><i class="fa fa-angle-double-right"></i> Vương Ngọc Huệ -
+                                                        21050051</a></li>
+                                                <li><a><i class="fa fa-angle-double-right"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="footer-info-single">
+                                            <h2 class="title"> LƯU Ý</h2>
+                                            <p>Đối với những trường hợp nhân viên không xuất hóa đơn giấy khi thanh
+                                                toán
+                                                tại
+                                                nhà
+                                                hàng hoặc khi hóa đơn điện tử khi đặt hàng trực tuyến. Qúy khách vui
+                                                lòng
+                                                liên hệ
+                                                cho chúng tôi để được hoàn lại 200% giá trị đơn hàng</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <section class="copyright">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <p>Copyright © 2023. Cung cấp bởi Vương Ngọc Huệ</p>
+                                        </div>
+                                        <div class="col-sm-6"></div>
+                                    </div>
+                                </div>
+                            </section>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
